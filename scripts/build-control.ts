@@ -48,7 +48,8 @@ type PackageControlInSection = {
   lastVersion: string;
   section: string;
   icon?: string;
-} & Omit<Required<PackageControlFile>, "filepath" | "control">;
+  birthtimeMs: number;
+}
 
 export type SectionControlFile = {
   name: string;
@@ -142,7 +143,7 @@ function scanCompatible(packages: Map<string, PackageControlFile[]>): void {
 function parseControl(control: string): PackageControl {
   const obj = {} as any;
 
-  let propLast;
+  let propLast: string;
   control
     .split("\n")
     .filter((item) => !!item.replace(/\s/g, ""))
@@ -191,13 +192,11 @@ async function createPagesControl(
   allPackages.slice(0, 10).forEach((pkg) => {
     pkgLastUpdate.push({
       packageID: pkg.control.Package,
-      name: pkg.control.Name,
+      name: pkg.control.Name || pkg.control.Package,
       lastVersion: pkg.control.Version,
       icon: pkg.control.Icon,
       section: pkg.control.Section || "Unknown",
-      ...pkg,
-      // @ts-ignore
-      control: undefined,
+      birthtimeMs: pkg.birthtimeMs || 0,
     });
   });
 
@@ -205,7 +204,7 @@ async function createPagesControl(
     join(PATH_ROOT, "pages/control.json"),
     stringify({
       pkgLastUpdate,
-      lastUpdateAt: pkgLastUpdate[0].birthtimeMs,
+      birthtimeMs: pkgLastUpdate[0].birthtimeMs,
       countPackage: Array.from(packages.keys()).length,
       countFileDebian,
     })
@@ -225,13 +224,11 @@ async function updateSections(
 
     sections.get(section)!.add({
       packageID: controls[0].control.Package,
-      name: controls[0].control.Name,
+      name: controls[0].control.Name || controls[0].control.Package,
       lastVersion: controls[0].control.Version,
       icon: controls[0].control.Icon,
       section: controls[0].control.Section || "Unknown",
-      ...controls[0],
-      // @ts-ignore
-      control: undefined,
+      birthtimeMs: controls[0].birthtimeMs || 0
     });
   });
 
