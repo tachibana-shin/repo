@@ -1,0 +1,1 @@
+Tweak App WeChat. Swipe To Scan QR Code.

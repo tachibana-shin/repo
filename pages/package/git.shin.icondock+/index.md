@@ -1,0 +1,1 @@
+Simple tweak that adds five row to your dock. Simply drag and drop your desired icons on your to use this tweak. Competible IOS 10

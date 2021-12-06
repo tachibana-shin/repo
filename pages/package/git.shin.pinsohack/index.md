@@ -1,0 +1,1 @@
+Pinso-Wallpaper & Poster Maker Enable Edit Tamplate Pro & Save Tamplate.

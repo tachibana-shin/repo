@@ -1,0 +1,1 @@
+Motivation Quotes -Daily Quote Premium Subscription.

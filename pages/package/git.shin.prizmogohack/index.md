@@ -1,0 +1,1 @@
+Prizmo Go › Text Grabber Premium Plan.

@@ -1,0 +1,1 @@
+Haptic Feedback your iPhone at Press Lock Hardware Button.

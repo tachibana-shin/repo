@@ -1,0 +1,1 @@
+Enable Tap on lockscreen notifications to open.

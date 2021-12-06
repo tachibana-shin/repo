@@ -1,0 +1,1 @@
+Bye ADS on Twitter & Reddit app.

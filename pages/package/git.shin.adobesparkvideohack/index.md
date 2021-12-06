@@ -1,0 +1,1 @@
+Adobe Spark Video Spark Subscription.

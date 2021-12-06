@@ -1,0 +1,1 @@
+hide the space time and date (NC & LS).

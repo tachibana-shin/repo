@@ -1,0 +1,1 @@
+Auto Dismiss Force Touch (3D Touch).

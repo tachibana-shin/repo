@@ -1,0 +1,1 @@
+adds some convenience to the matches list in Tinder. Long press match cell for options, Show a user's profile from the matches list and Tinder Plus features (Super Like). Enjoy :)

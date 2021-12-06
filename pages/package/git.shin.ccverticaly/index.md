@@ -1,0 +1,1 @@
+Vertical Toggle button & Media, Hide Text Button, and Show Action Text if media is not playing on Control Center IOS 10

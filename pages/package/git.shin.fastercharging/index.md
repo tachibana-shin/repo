@@ -1,0 +1,1 @@
+Faster Charger, Always Save Power Mode & Faster Animation! Configure option from Settings!

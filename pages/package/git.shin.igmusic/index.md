@@ -1,0 +1,1 @@
+Instagram Music Available in All Region (Requires Instagram last verison from AppStore)

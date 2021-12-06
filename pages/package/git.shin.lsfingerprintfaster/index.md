@@ -1,0 +1,1 @@
+After opening the lockscreen via fingerprint. bye Press Home to open.

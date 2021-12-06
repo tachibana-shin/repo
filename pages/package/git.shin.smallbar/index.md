@@ -1,0 +1,1 @@
+Puts navigation bars on a smallbar and rainbow colors.

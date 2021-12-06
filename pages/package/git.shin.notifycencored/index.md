@@ -1,0 +1,1 @@
+simple tweak that allows you to censor the notifications message on banner Notification Center / Lockscreen. Include (iMessages, Gmail, WhatsApp, Facebook Messenger, Stock Mail.)

@@ -1,0 +1,1 @@
+Sort apps icons Homescreen & Folder alphabetically

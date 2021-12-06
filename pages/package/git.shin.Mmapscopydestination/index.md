@@ -1,0 +1,1 @@
+Adds an option to copy the destination on Apple Maps when in "directions mode". A common use case for me is opening an address with directions from another app, and needing to quickly extract the name of the destination.

@@ -1,0 +1,1 @@
+Add the app switcher to the control center support for iOS 7,8 and 10

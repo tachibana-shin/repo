@@ -1,0 +1,1 @@
+makes animations springy. when switching from different pages in any app, it give the animation a bounce. like shockbreaker motorcycle :p

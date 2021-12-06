@@ -1,0 +1,1 @@
+Magical Effects Pack Subscription lifetime.

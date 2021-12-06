@@ -1,0 +1,1 @@
+Enable old photo filters for stock Photo App.

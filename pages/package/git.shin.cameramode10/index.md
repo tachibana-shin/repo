@@ -1,0 +1,1 @@
+Activate Potrait Mode and All Features from the iPhone 7 Plus in any older iPhone iOS 10.

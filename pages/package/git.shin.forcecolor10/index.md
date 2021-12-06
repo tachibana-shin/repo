@@ -1,0 +1,1 @@
+Change your 3D Touch menus border and background tint color.

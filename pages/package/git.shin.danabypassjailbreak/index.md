@@ -1,0 +1,1 @@
+This tweak allows you to use Dana on a Jailbroken device. (indonesia)

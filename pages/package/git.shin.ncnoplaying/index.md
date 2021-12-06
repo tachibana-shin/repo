@@ -1,0 +1,1 @@
+Replace no Notifications on NC to the now playing song meta data title and artist

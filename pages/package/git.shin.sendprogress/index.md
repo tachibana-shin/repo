@@ -1,0 +1,1 @@
+Shows a progress for sending messages IOS 10 only

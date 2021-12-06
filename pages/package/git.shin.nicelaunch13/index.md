@@ -1,0 +1,1 @@
+Nice Animation when you open first app.

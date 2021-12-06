@@ -1,0 +1,1 @@
+Haptic Scrolling for all sorts of scrolling windows! alternative tweak Haptic Scroll. this is free :)

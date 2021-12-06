@@ -1,0 +1,1 @@
+Move the control center anywhere! Competible with CCNoFloating.

@@ -1,0 +1,1 @@
+replace the default switcher with bundleid application. allows developers seek application bundle id.

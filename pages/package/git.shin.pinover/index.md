@@ -1,0 +1,1 @@
+A new way to multitask. PinOver allows you to "pin" an app so that it's always available wherever you are on your device. With a convenient grabber, you are able to pull it over the current view when you'd like to see it and push it back when you're done. There when you need it, out of the way when you don't.

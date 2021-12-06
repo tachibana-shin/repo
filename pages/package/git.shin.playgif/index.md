@@ -1,0 +1,1 @@
+View GIFs animation in the stock Photos app!

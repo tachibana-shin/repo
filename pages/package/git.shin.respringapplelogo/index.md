@@ -1,0 +1,1 @@
+This is a small tweak. Apple Logo is back on respring Cydia!

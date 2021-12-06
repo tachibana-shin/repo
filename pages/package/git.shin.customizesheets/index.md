@@ -1,0 +1,1 @@
+CustomizeSheets 10 allows us to create any custom Action Sheet. lets you (Edge to Edge, Hide Separators, Hide Cancel Button)

@@ -1,0 +1,1 @@
+Competible IOS 10 only, simple tweak that presents options when a screenshot is taken and Replace ScreenFlash with Notifications Banner.

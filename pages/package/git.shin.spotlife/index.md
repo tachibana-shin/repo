@@ -1,0 +1,1 @@
+Replace the Today Views Page with Spotlight on the Homescreen and Lockscreen.

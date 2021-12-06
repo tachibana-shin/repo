@@ -1,0 +1,1 @@
+No floating Control Center, makes it come up just like to old one, no bouncing to the side or so. works with all the tweaks Control Center. including Kotak10

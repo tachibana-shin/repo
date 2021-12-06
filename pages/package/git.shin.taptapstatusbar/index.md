@@ -1,0 +1,1 @@
+Tap Manual Show or Hide Statusbar. Competible ios 9 & 10.

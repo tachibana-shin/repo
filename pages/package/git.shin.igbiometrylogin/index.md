@@ -1,0 +1,1 @@
+Enabled Apple Touch ID/Face ID logs you into your account using fingerprint or faceid so you won't need to enter your password. to enabled it go to IG Settings -&lt; Security -&lt; Login Options.

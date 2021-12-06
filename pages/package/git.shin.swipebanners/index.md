@@ -1,0 +1,1 @@
+Notification banner will remain until swipe up! Configure options from Settings.

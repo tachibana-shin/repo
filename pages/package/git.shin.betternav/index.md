@@ -1,0 +1,1 @@
+Better Navigation Bar 12 give you Small Bar and hide Navigation Bar when scroll down.

@@ -1,0 +1,1 @@
+Adobe Spark Post Spark Subscription.

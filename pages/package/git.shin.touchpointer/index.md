@@ -1,0 +1,1 @@
+show his touches on the screen.

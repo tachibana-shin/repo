@@ -1,0 +1,1 @@
+iOS tweak that allows running All Game Nintendo (Fire Emblem Heroes, Miitomo, Super Mario Run) on jailbroken devices

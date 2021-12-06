@@ -1,0 +1,1 @@
+Telolet Charging for iOS 10. lets you to completely customize what happens when you plug in your device. Configure options from settings

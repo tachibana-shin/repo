@@ -1,0 +1,1 @@
+Allow Triple Tap on UILabel to Copy.

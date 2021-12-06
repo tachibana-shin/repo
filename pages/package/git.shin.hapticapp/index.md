@@ -1,0 +1,1 @@
+Haptic Feedback your iPhone at Touchscreen on App. Activate using libSparkAppList.

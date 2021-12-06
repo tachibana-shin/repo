@@ -1,0 +1,1 @@
+Adobe Spark Page Subscription. Remove Adobe Branding from your project. Enjoy!

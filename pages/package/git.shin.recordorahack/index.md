@@ -1,0 +1,1 @@
+Recordora: Screen Recorder Premium lifetime.

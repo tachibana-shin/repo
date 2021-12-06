@@ -1,0 +1,1 @@
+Adds a Scan button in WiFi Settings & Shows weak Networks

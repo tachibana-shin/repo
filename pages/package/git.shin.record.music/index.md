@@ -1,0 +1,1 @@
+Allows you to play sounds Apple Music while screen recording or exit the music app. Compatible IOS 12 Only

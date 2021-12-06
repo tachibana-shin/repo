@@ -14,8 +14,10 @@ pkgs.forEach((pkg, id) => {
     recursive: true,
   });
 
-  fs.writeFileSync(
-    `./pages/package/${id}/compatible.yml`,
-    `latest: ${JSON.stringify(pkg.trim()).replace(/\r/g, "")}`
-  );
+  if (fs.existsSync(`./pages/package/${id}/compatible.yml`) === false) {
+    fs.writeFileSync(
+      `./pages/package/${id}/compatible.yml`,
+      `latest: ${JSON.stringify(pkg.trim()).replace(/\r/g, "")}`
+    );
+  }
 });

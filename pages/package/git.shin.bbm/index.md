@@ -1,0 +1,1 @@
+Kontak tidak akan melihat "sedang menulis pesan" saat mengetik, Kontak tidak akan pernah tahu telah membaca pesan mereka sampai agan membalas pesan, jadi bisa lebih santai balesnya, Tidak Ada Iklan di Timeline maupun Invite BBM jadi kelihatan Bersih, Unlimited Ping.

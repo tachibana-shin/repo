@@ -1,0 +1,1 @@
+Bazaart Photo Editor & Design Premium lifetime.

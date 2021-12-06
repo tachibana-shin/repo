@@ -1,0 +1,1 @@
+Unlocks all premium features one the Quizlet App from the AppStore

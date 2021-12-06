@@ -1,0 +1,1 @@
+No Bubble for Lockscreen, Force Touch, Notifications Center, Banners, Widgets, AlertView and etc.

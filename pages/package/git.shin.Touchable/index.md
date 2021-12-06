@@ -1,0 +1,1 @@
+Use TouchID sensor as Home Button. A simple faster and save battery

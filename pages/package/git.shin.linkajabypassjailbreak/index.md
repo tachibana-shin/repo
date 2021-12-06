@@ -1,0 +1,1 @@
+This tweak allows you to use LinkAja on a Jailbroken device (Indonesia).

@@ -1,0 +1,1 @@
+Simple Tweak Disable Touch Gesture OTA and Reset All Setting entries in preferences.

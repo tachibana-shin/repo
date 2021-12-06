@@ -1,0 +1,1 @@
+Show Battery Percentage on NC/LS

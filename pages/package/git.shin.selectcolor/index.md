@@ -1,0 +1,1 @@
+a simple tweak random color for text selector.

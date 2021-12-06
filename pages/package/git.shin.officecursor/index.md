@@ -1,0 +1,1 @@
+Smooth Cursor Like Office 2013/2016 and Quick delete with smooth animation.

@@ -1,0 +1,1 @@
+a simple tweak Allow Copy your notifications to paste later

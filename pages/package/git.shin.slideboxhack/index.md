@@ -1,0 +1,1 @@
+Slidebox - Photo Manager Premium lifetime.

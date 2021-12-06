@@ -1,0 +1,1 @@
+Download Lagu, Playlist dan Semua lagu yang dilike, mainkan secara offline mode untuk menghemat data, No Ads dan Menu Developer Mode.

@@ -5,6 +5,7 @@
     "build:web-leak": "node --max-old-space-size=8192 node_modules/vite-ssg/bin/vite-ssg.js build",
     "build:control": "esno ./scripts/build-control.ts",
     "build:debian": "rm -rf public/debian && cp -rf ./debian public/debian",
+    "build:comp": "esno ./compatible.ts",
     "build": "yarn build:control && yarn build:debian && yarn build:web-leak",
     "dev": "vite",
     "preview": "vite preview"
