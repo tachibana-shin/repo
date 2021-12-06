@@ -168,26 +168,6 @@ Icon: file:///Library/PreferenceBundles/3DTools.bundle/icon@2x.png
 Sponsor: tachibana-shin<https://tachibana-shin.github.io>
 Depiction: https://tachibana-shin.github.io/repo/package/git.shin.3dtools
 
-Package: git.shin.
-Architecture: iphoneos-arm
-Version: 0.8.0b
-Section: Tweaks
-Maintainer: tachibana-shin<tachib.shin@gmail.com>
-Depends: mobilesubstrate, com.creaturecoding.libcspreferences
-Conflicts: com.cpdigitaldarkroom.placeholder
-Filename: ./debian/git.shin.@0.8.0b.deb
-Size: 91148
-MD5sum: 897595ff72ea8c92421cec229f8e01cb
-SHA1: 20553add4601a1a341eb316fca3a2409cd06fb78
-SHA256: 78c571ae06e4b977c8a77aa208bd377e2452b7eb8838675f1bac5162632595a8
-SHA512: f5e940d17e4546beec2788f71130c8f1f51ccca9a0384ad6159f34ac47729f5fc269ffe656e12d93c27722634ae5748058abc8171da473ad465a910c1f916aab
-Homepage: https://tachibana-shin.github.io/repo
-Description: Mix up your preferences
-Name: shuffle
-Author: CreatureSurvive
-Sponsor: tachibana-shin<https://tachibana-shin.github.io>
-Depiction: https://tachibana-shin.github.io/repo/package/git.shin.
-
 Package: git.shin.AceCata
 Architecture: iphoneos-arm
 Version: 1.0
@@ -3337,6 +3317,26 @@ Name: CrackTool4
 Author: julioverne
 Depiction: https://tachibana-shin.github.io/repo/package/git.shin.cracktool4
 Sponsor: tachibana-shin<https://tachibana-shin.github.io>
+
+Package: git.shin.creature-survice
+Architecture: iphoneos-arm
+Version: 0.8.0b
+Section: Tweaks
+Maintainer: tachibana-shin<tachib.shin@gmail.com>
+Depends: mobilesubstrate, com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Filename: ./debian/git.shin.creature-survice@0.8.0b.deb
+Size: 91148
+MD5sum: 2678b65aa79d67122fb1e79991dc401b
+SHA1: dfb0f21cfda14d1101db2d6edd2de33645f11bca
+SHA256: da63f02b63995514abc8cf1180e7b732e3a760de6922e44e8a2fc3572ad8918d
+SHA512: 17f03dfe439d0ee01b4fe1cc796d5464f849fcbaf36353456a08cf945f61b71a1697c65e65697036f992be752e5b2cb40717048ec3f3accaf879acb35e15dd90
+Homepage: https://tachibana-shin.github.io/repo
+Description: Mix up your preferences
+Nam: shuffle
+Author: CreatureSurvive
+Sponsor: tachibana-shin<https://tachibana-shin.github.io>
+Depiction: https://tachibana-shin.github.io/repo/package/git.shin.creature-survice
 
 Package: git.shin.cukey
 Architecture: iphoneos-arm
