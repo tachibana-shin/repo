@@ -1,0 +1,20 @@
+Origin: Tachibana Shin (たちばなしん)
+Label: Tachibana Shin (たちばなしん)
+Suite: stable
+Version: 1.0
+Codename: ios
+Architecture: iphoneos-arm
+Components: main
+Description: Repo DEBIAN packages for Cydia / Installer 5 of the Tachibana Shin (たちばなしん)
+MD5Sum:
+ 794453a97bdc2465ae54372145782e84 25845 Packages
+ 0e5a17c8ca6b98e3cb3f08ebdc770bb1 7184 Packages.bz2
+ 102997778d3e2c753896b863425bb510 7580 Packages.gz
+SHA256Sum:
+ 296073cb40904d62ed5ad6b2bef0744ec5a239194c6cf95ad532ebd766647df0 25845 Packages
+ 06736d7258a79344b665ec4560354e993e27dea812a286e3d2dc026f4baf1913 7184 Packages.bz2
+ fd2aea58941a7173f1ed2fb9eb0d6c5f8b08b8dc60bf74c0e60d9f17839a5a2d 7580 Packages.gz
+SHA512Sum:
+ e9ab02d2d1ab27e73c486e628309c97ee40401c6a25267290857ddbc7c843f8fcfe0e1179d71fdf803f8022df5355f9d1e4b16e967bdaed3499eb3f54bb9575f 25845 Packages
+ 3e5a020955d74769c9ae1cc65d5acb36a36f4f01ef9ae68a5ad6fd0979f02c4b80847dd68a8ae7536d5dfc0a6d3ad11e7ec64d22dd3ecfd6b3c14302d043c360 7184 Packages.bz2
+ e252cf6d65ba36edcc8e50ea8e8a81eca62722ae0f39d914c7c3915e624fb140517cae31f13ff9e9889a9450d32463478cd3ff704dc569d35881dc93c152125d 7580 Packages.gz
