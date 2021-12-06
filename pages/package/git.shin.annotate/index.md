@@ -1,0 +1,1 @@
+Add a notepad widget on the homescreen.

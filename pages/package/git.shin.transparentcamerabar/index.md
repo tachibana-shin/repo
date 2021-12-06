@@ -1,0 +1,1 @@
+Set opacity, hide and shrink camera bars.

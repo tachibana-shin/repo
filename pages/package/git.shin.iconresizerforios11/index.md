@@ -1,0 +1,1 @@
+Control icons on Homescreen whatever you want to do. Confirmed works on iOS11&12.

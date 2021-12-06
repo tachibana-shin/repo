@@ -1,0 +1,1 @@
+View info battery your device

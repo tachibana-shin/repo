@@ -1,0 +1,1 @@
+Auto dynamic live photo.

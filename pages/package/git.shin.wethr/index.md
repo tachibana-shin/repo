@@ -1,0 +1,1 @@
+A weather widget for LockHTML4!

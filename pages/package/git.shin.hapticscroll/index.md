@@ -1,0 +1,1 @@
+Haptic feedback when top/bottom scroll limit is reached.

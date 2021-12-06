@@ -1,0 +1,1 @@
+Enable "Show All Changes" for all packages automatically.

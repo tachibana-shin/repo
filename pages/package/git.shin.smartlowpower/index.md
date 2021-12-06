@@ -1,0 +1,1 @@
+Automate Low Power mode activation to save battery

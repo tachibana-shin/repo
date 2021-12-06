@@ -1,0 +1,1 @@
+iOS 11 screenshot feature on older iOS versions

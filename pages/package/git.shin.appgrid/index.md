@@ -1,0 +1,1 @@
+Change the style of the App Switcher to have an app grid like on the iPad.

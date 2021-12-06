@@ -1,0 +1,1 @@
+Thins notification banners down to size!

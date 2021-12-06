@@ -1,0 +1,1 @@
+Clone Application use Command. cloneapp &gt;CFBundleDisplayName | CFBundleIdent | CFBundleName&lt;

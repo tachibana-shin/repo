@@ -1,0 +1,1 @@
+Install your iPA. Using command myinst &gt;path to .iPA&lt;

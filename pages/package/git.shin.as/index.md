@@ -1,0 +1,1 @@
+Alert user on boot/respring if substrate is activated successfully.

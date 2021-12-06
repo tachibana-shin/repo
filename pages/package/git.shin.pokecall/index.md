@@ -1,0 +1,1 @@
+Incoming caller wants to battle!

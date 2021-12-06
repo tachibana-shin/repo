@@ -1,0 +1,1 @@
+Status Volume of WhatsApp at your iDevice.

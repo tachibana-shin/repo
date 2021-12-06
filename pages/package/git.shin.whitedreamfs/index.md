@@ -1,0 +1,1 @@
+White Dream FullScreen  Widget for XenHTML. All devices. By Le0n

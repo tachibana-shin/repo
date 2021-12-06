@@ -1,1 +1,0 @@
-Description for package git.shin.cydiacoolstar

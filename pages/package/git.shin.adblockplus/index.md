@@ -1,0 +1,1 @@
+Block ads for app++.

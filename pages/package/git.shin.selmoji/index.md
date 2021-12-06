@@ -1,0 +1,1 @@
+Favorite emojis always on your keyboard.

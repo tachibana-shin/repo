@@ -1,0 +1,1 @@
+Good bye badges, hello labels! For iOS 8-10

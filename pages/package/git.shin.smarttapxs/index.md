@@ -1,0 +1,1 @@
+Smarttap for iOS 11 -&lt; 13

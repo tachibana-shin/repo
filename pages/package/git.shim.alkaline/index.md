@@ -1,0 +1,1 @@
+Themeable status bar battery replacement for iOS 7.

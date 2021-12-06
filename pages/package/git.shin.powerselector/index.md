@@ -1,0 +1,1 @@
+The power supply relation of a device is operated.

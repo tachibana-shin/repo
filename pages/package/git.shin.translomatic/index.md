@@ -1,0 +1,1 @@
+Quickly translate any text

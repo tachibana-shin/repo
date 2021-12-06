@@ -1,0 +1,1 @@
+Haptic feedback for keyboard touches.

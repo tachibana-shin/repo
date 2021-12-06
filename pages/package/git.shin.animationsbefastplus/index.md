@@ -1,0 +1,1 @@
+Speed up animations everywhere! Apps and Springboard!

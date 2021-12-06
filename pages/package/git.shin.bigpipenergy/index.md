@@ -1,0 +1,1 @@
+Removes the max size on Picture in Picture.

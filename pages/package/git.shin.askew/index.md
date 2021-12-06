@@ -1,0 +1,1 @@
+Awesome widget for your lockscreen

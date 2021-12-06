@@ -1,0 +1,1 @@
+Display current weather temperature in status bar!

@@ -1,0 +1,1 @@
+Force applications to show in fullscreen mode

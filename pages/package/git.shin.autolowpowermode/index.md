@@ -1,0 +1,1 @@
+Automatically turn on Low Power Mode when device's battery is low.

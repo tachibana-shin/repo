@@ -1,0 +1,1 @@
+Lite Charging View with Batt Dots and Hour.

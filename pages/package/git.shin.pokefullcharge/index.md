@@ -1,0 +1,1 @@
+Play a Pokémon jingle when charged or uncharged!

@@ -1,0 +1,1 @@
+Speeds up iOS Animations

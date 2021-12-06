@@ -1,0 +1,1 @@
+Set custom battery % for Low Power Mode.

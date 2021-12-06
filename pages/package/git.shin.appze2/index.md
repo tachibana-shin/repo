@@ -1,0 +1,1 @@
+Customize volume, brightness, toggles per app, directly from 3DTouch menu

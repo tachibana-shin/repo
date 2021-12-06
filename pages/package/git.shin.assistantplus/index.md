@@ -1,0 +1,1 @@
+Assign commands to trigger Activator events from Siri, set up custom replies for Siri, and use and create plugins for Siri using the Assistant+ plugin framework

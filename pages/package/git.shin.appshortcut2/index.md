@@ -1,0 +1,1 @@
+Quickly access your favorite apps!

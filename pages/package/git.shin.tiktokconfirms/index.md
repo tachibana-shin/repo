@@ -1,0 +1,1 @@
+Confirms Alerts for TikTok!

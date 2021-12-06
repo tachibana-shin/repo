@@ -1,0 +1,1 @@
+Album artwork in music cc module.

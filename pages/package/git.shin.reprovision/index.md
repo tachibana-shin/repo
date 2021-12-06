@@ -1,0 +1,1 @@
+Re-sign applications on your device

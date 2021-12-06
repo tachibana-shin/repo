@@ -1,0 +1,1 @@
+Apples hidden feature to show the battery percentage inside the icon.

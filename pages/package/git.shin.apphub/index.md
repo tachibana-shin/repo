@@ -1,0 +1,1 @@
+Cydia is great but finding new packages can be tough. TweakHub can show you all available tweaks in Cydia land for the apps you have installed. Once installed go to the more tab of Cydia and click TweakHub. ***It now hooks the "Find Extensions for Applications" button on the Cydia main page***

@@ -1,0 +1,1 @@
+Discord AutoScroll prevents finger fatigue when scrolling a lot on Discord.app.

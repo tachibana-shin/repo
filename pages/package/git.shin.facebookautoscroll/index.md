@@ -1,0 +1,1 @@
+Facebook AutoScroll prevents finger fatigue when scrolling a lot on Facebook.app & Messenger.app.

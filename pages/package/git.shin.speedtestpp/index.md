@@ -1,0 +1,1 @@
+Remove ADS from SpeedTest App

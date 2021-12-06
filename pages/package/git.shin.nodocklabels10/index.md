@@ -1,0 +1,1 @@
+Hide Labels On Dock Icon. IOS 10 Only!

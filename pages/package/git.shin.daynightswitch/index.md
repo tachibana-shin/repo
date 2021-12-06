@@ -1,0 +1,1 @@
+Add some style to your switches

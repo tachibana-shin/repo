@@ -1,0 +1,1 @@
+A Useful Package Manager. Sevirce Zebra support for Zebra if you install https://nguyenthanh1995 .github.io/ipa/zebra105.ipa

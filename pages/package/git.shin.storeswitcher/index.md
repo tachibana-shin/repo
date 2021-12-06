@@ -1,0 +1,1 @@
+Switch App Store accounts easily

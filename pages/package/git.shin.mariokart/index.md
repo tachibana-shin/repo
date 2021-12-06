@@ -1,0 +1,1 @@
+Bypass JB Detection in  Mario Kart Tour.

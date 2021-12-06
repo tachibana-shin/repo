@@ -1,0 +1,1 @@
+Add Haptic Feedback when you open an app !

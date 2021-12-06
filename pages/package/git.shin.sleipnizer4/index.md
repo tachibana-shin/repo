@@ -1,0 +1,1 @@
+convenient faster browsing with gestures

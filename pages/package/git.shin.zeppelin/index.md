@@ -1,0 +1,1 @@
+Replaces carrier text with an image!

@@ -1,0 +1,1 @@
+Show disk usage of an app in its uninstall alert.

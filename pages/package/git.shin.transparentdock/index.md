@@ -1,0 +1,1 @@
+Remove iOS 7 dock's blurred background

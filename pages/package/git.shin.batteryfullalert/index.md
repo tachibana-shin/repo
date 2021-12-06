@@ -1,0 +1,1 @@
+alert when battery truly fully charged

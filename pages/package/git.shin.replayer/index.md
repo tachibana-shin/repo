@@ -1,0 +1,1 @@
+Fix GamePlayer Die! Use cmd "replayer"

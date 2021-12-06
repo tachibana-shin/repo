@@ -1,0 +1,1 @@
+Modify the Lockscreen, CC, Spotify, and Music app now playing views based on the album artwork.

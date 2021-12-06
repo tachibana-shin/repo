@@ -1,0 +1,1 @@
+libatocr for AutoTouch.

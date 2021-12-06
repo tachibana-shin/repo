@@ -1,0 +1,1 @@
+Apple’s removed analog clock design

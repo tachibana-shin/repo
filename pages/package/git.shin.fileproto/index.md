@@ -1,0 +1,1 @@
+Enable file:// urls for Mobile Safari.

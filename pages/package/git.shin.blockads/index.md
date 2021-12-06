@@ -1,0 +1,1 @@
+Block ads for iPhone. Active on jailbreak and non-jailbreak. After install, please open Terminal run: su &gt;passwd default: alpine&lt;; blockads -on

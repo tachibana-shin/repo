@@ -1,0 +1,1 @@
+keyboard swipes move cursor & select text

@@ -1,0 +1,1 @@
+Block Jailbreak in apps.

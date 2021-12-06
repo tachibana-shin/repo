@@ -1,0 +1,1 @@
+a simple library for fetching weather information

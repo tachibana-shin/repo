@@ -1,0 +1,1 @@
+Set custom volume/brightness per app, directly from 3D Touch menu

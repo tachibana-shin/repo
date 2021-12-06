@@ -1,0 +1,1 @@
+Take back your icon badges with this complete badge customization tweak including animations.

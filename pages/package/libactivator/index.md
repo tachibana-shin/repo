@@ -1,0 +1,1 @@
+Centralized gestures, button and shortcut management for iOS 10

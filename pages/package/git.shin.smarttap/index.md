@@ -1,0 +1,1 @@
+Turn on the screen by tapping it!

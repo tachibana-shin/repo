@@ -1,0 +1,1 @@
+Instagram AutoScroll prevents finger fatigue when scrolling a lot on Instagram.app.

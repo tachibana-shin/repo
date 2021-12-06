@@ -1,0 +1,1 @@
+custom NewTerm color schemes with ansi color codes

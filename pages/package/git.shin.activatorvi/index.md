@@ -1,0 +1,1 @@
+Add Vietnamese language for Activator

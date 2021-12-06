@@ -1,0 +1,1 @@
+lazy and bored with your color settings. no problem, this tweak give you Randomise app colours every time it is opened only on app, no SpringBoard, does not make your device slowly. Requires libSparkAppList to activate.

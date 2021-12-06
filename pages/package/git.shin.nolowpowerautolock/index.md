@@ -1,0 +1,1 @@
+Prevent your device from Auto-Locking when in low power mode

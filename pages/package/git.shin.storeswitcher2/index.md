@@ -1,0 +1,1 @@
+Adds a button to switch account in App Store account page on iOS 11+.

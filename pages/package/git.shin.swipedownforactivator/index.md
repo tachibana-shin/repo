@@ -1,0 +1,1 @@
+Trigger Activator actions by swiping down on SpringBoard (native spotlight invoker), swiping down and swiping up on default lock screen view.

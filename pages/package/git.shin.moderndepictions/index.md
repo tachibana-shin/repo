@@ -1,0 +1,1 @@
+Bring the Sileo storefront and package description view to the Cydia store

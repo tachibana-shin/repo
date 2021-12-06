@@ -1,0 +1,1 @@
+Make bottom CC buttons smaller (like stock iOS) for FlipControlCenter.
