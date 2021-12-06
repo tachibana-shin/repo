@@ -56,13 +56,23 @@ export type SectionControlFile = {
 };
 
 const PATH_FILE_CONTROL_CACHE = join(PATH_ROOT, "__CONTROL_CACHE__");
-const controlCache = new Map</* Package ID */ string, {
-  control: PackageControl;
-  SHA512sum: string;
-}>(fs.existsSync(PATH_FILE_CONTROL_CACHE) ? JSON.parse(fs.readFileSync(PATH_FILE_CONTROL_CACHE, "utf8")) : undefined);
+const controlCache = new Map<
+  /* Package ID */ string,
+  {
+    control: PackageControl;
+    SHA512sum: string;
+  }
+>(
+  fs.existsSync(PATH_FILE_CONTROL_CACHE)
+    ? JSON.parse(fs.readFileSync(PATH_FILE_CONTROL_CACHE, "utf8"))
+    : undefined
+);
 
 async function updateFileControlCache(): Promise<void> {
-  await fs.promises.writeFile(PATH_FILE_CONTROL_CACHE, JSON.stringify(Array.from(controlCache.entries())));
+  await fs.promises.writeFile(
+    PATH_FILE_CONTROL_CACHE,
+    JSON.stringify(Array.from(controlCache.entries()))
+  );
 }
 
 async function main() {
@@ -114,14 +124,16 @@ async function main() {
 }
 main();
 
-function scanCompatible(
-  packages: Map<string, PackageControlFile[]>
-): void {
+function scanCompatible(packages: Map<string, PackageControlFile[]>): void {
   for (const pkg of Array.from(packages.keys())) {
     // scan
     const pathYml = join(PATH_ROOT, "pages/package", pkg, "compatible.yml");
     if (fs.existsSync(pathYml) === false) {
-      console.log(chalk.yellow(`${pkg} required compatible at: pages/package/${pkg}/compatible.yml`));
+      console.log(
+        chalk.yellow(
+          `${pkg} required compatible at: pages/package/${pkg}/compatible.yml`
+        )
+      );
     }
   }
 }
@@ -136,12 +148,12 @@ function parseControl(control: string): PackageControl {
     .filter((item) => !!item.replace(/\s/g, ""))
     .forEach((line) => {
       if (propLast && line.match(/^\s/)) {
-		    obj[propLast] += `\n${line}`;
-		    return;
-	    }
+        obj[propLast] += `\n${line}`;
+        return;
+      }
       const split = line.split(": ");
 
-      obj[propLast = split[0].trim()] = split.slice(1).join(": ").trim();
+      obj[(propLast = split[0].trim())] = split.slice(1).join(": ").trim();
     });
 
   return obj;
@@ -280,7 +292,10 @@ async function fixPageNotFound(
     !fs.existsSync(join(path, "index.md")) ||
     !fs.existsSync(join(path, "index.vue"))
   ) {
-    fs.writeFileSync(join(path, "index.md"), contentDefault?.replace(/</g, "&gt;").replace(/>/g, "&lt;") || "");
+    fs.writeFileSync(
+      join(path, "index.md"),
+      contentDefault?.replace(/</g, "&gt;").replace(/>/g, "&lt;") || ""
+    );
   }
 }
 async function createDepictionPackages(
@@ -475,7 +490,9 @@ function packDebianFromTmp(filepath: string): void {
     }
   });
 
-  child_process.execSync(`dpkg-deb --build --root-owner-group "${PATH_TMP_UNPACK_DEBIAN}" "${filepath}"`);
+  child_process.execSync(
+    `dpkg-deb --build --root-owner-group "${PATH_TMP_UNPACK_DEBIAN}" "${filepath}"`
+  );
 }
 
 async function getListPackages(): Promise<string[]> {
@@ -516,7 +533,7 @@ async function autoFixDebian(debian: string[]): Promise<PackageControlFile[]> {
     const srcDebian = debian[i];
     const filename = basename(srcDebian);
     const hash = await sha512file(srcDebian);
-	  
+
     if (controlCache.get(filename)?.SHA512sum === hash) {
       // skip fix
       controlJSONFiles.push({
@@ -540,7 +557,7 @@ async function autoFixDebian(debian: string[]): Promise<PackageControlFile[]> {
 
     const uniqueControl = sha256(stringify(control));
 
-//     control.Package = fixPackageId(control.Package);
+    //     control.Package = fixPackageId(control.Package);
     if (control.Package !== fixPackageId(control.Package)) {
       console.info(chalk.blue(`${control.Package} is not my package.`));
     }
@@ -560,7 +577,7 @@ async function autoFixDebian(debian: string[]): Promise<PackageControlFile[]> {
       );
     }
     control.Depiction = `${HOMEPAGE}/package/${control.Package}`; // no report old versions package
-    
+
     for (const prop in control) {
       if (!control[prop].replace(/^\s|\s$/g, "")) {
         delete control[prop];
@@ -569,7 +586,7 @@ async function autoFixDebian(debian: string[]): Promise<PackageControlFile[]> {
 
     if (uniqueControl !== sha256(stringify(control))) {
       writeFileControlToTmp(control);
-	    
+
       packDebianFromTmp(
         join(PATH_DEBIAN, `${control.Package}@${control.Version}.deb`)
       );
@@ -581,7 +598,10 @@ async function autoFixDebian(debian: string[]): Promise<PackageControlFile[]> {
       }
     } else {
       if (isValidFilename(filename, control) === false) {
-	fs.renameSync(srcDebian, join(PATH_DEBIAN, `${control.Package}@${control.Version}.deb`));      
+        fs.renameSync(
+          srcDebian,
+          join(PATH_DEBIAN, `${control.Package}@${control.Version}.deb`)
+        );
       }
     }
 

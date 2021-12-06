@@ -37,7 +37,14 @@
             ? `_blank`
             : undefined
         "
-        class="item__child d-flex justify-content-between align-items-center hover__bg-grey before__bg-secondary"
+        class="
+          item__child
+          d-flex
+          justify-content-between
+          align-items-center
+          hover__bg-grey
+          before__bg-secondary
+        "
         :class="{
           'no-chevron': item.noChevron,
         }"
@@ -149,7 +156,7 @@ defineProps<{
 
       .icon {
         width: 2em;
-	height: 2em;
+        height: 2em;
         // background-image: url("assets/icons/Sections/Unknown.png");
       }
     }
