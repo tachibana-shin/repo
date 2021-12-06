@@ -1,4 +1,4 @@
-import { resolve, join, dirname, relative } from "path";
+import { resolve, join, dirname, basename } from "path";
 import { UserConfig } from "vite";
 import fs from "fs-extra";
 import Pages from "vite-plugin-pages";
@@ -6,7 +6,7 @@ import Inspect from "vite-plugin-inspect";
 import Components from "unplugin-vue-components/vite";
 import Markdown from "vite-plugin-md";
 import Vue from "@vitejs/plugin-vue";
-import matter from "gray-matter";
+// import matter from "gray-matter";
 import AutoImport from "unplugin-auto-import/vite";
 import anchor from "markdown-it-anchor";
 import markdownAttr from "markdown-it-link-attributes";
@@ -40,7 +40,6 @@ const config: UserConfig = {
     Pages({
       extensions: ["vue", "md"],
       pagesDir: "pages",
-      importMode: "async",
       extendRoute(route) {
         const path = resolve(__dirname, route.component.slice(1));
 
@@ -62,9 +61,10 @@ const config: UserConfig = {
                 fs.readFileSync(join(dir, "compatible.yml"), "utf8")
               ),
             existsChangelog: fs.existsSync(join(dir, "changelog.md")),
-            packageInfo: JSON.parse(
-              fs.readFileSync(join(dir, "control.json"), "utf8")
-            ),
+            ID: basename(dir),
+            // packageInfo: JSON.parse(
+            //   fs.readFileSync(join(dir, "control.json"), "utf8")
+            // ),
           };
         }
 
