@@ -9,10 +9,10 @@ Description: Repo DEBIAN packages for Cydia / Installer 5 of the Tachibana Shin 
 MD5Sum:
  4a267085ce8661afe6ae672689a47515 876240 Packages
  ca711339aff4f7fbfaa9419b2688d847 205968 Packages.xz
- b18be4f2f34b5803a5576bb22fbf0129 251807 Packages.gz
+ cdc8748e91e092a53a4a3ac4ff68cc6a 251807 Packages.gz
  acab822b894bec043ec90721b516eb6b 195068 Packages.bz2
 SHA256:
  6bcfd5fbd8a21e38d3976b7d6acd518efda7680c22d389fde6a4f781f29b0ea6 876240 Packages
  29066f9e0167bc3ea80004e570a190b578828e5d7e33cb1f58bd422ee40b0149 205968 Packages.xz
- 5966d2ac82dbb7b533f33934da25b4fc949f35dc574fadff0b682d51301bbd7d 251807 Packages.gz
+ 1175fd941ef3ea3516d36d1f444befc3e51c51a42aeaf145780c4dcd95a13ced 251807 Packages.gz
  74f0b47f081251c937deecdee2a5d48494c0ea4cbeb5a15f1fe5324e01b14469 195068 Packages.bz2
