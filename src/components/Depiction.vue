@@ -163,15 +163,15 @@ const { frontmatter } = defineProps<{ frontmatter: any }>();
 
 const route = useRoute();
 
-const url = import.meta.url;
-
 const message = frontmatter.notification;
 const screenshots: string[] =
   frontmatter.screenshots || (route.meta.screenshots as string[]) || [];
 const sourceCode = frontmatter["source-code"];
 const existsChangelog = route.meta.existsChangelog;
 const compatible = route.meta.compatible as Record<string, string> | undefined;
-const packageInfo = route.meta.packageInfo as Required<PackageControlFile>[];
+const packageInfo = Object.values(
+  import.meta.globEager(`/pages/package/${route.meta.ID}/control.json`)
+)[0]?.default! as Required<PackageControlFile>[];
 const packageInfoLast = packageInfo[0];
 const isSupport: boolean | null =
   iOSVersion.value &&
