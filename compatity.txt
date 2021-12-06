@@ -521,3 +521,4 @@ git.shin.appsyncunified >= 4
 git.shin.creature-survice *
 git.shin.libsparkapplis *
 git.shin.uasharedtools.stash <= 10
+git.shin.creature-survice *
