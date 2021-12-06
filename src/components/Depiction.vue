@@ -190,7 +190,7 @@ const propertiesShow = {
   // SHA256sum: packageInfoLast.SHA256sum,
   // SHA512sum: packageInfoLast.SHA512sum,
   Size: filesize(packageInfoLast.size),
-  "Last Update": format(packageInfoLast.birthtimeMs, "en_US", {
+  "Last Update": format(packageInfoLast.ctimeMs, "en_US", {
     relativeDate: Date.now(),
   }),
   uid: packageInfoLast.uid,

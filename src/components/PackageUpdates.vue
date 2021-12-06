@@ -9,13 +9,13 @@ import { usePackageIcon } from "../uses/packageIcon";
 import { format } from "timeago.js";
 
 const items = pkgLastUpdate.map((pkg) => ({
-  name: pkg.name,
+  name: pkg.name || pkg.packageID,
   icon: usePackageIcon(pkg.icon, pkg.section),
   version: pkg.lastVersion,
   to: inCydia
     ? `https://tachibana-shin.github.io/repo/package/${pkg.packageID}`
     : `/package/${pkg.packageID}`,
-  subversion: format(pkg.birthtimeMs, "en_US", {
+  subversion: format(pkg.ctimeMs, "en_US", {
     relativeDate: Date.now(),
   }),
 }));

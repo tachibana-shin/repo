@@ -21,8 +21,8 @@
     {{
       new Date(
         sectionInfo.packages
-          .sort((a, b) => a.birthtimeMs - b.birthtimeMs)
-          .reverse()[0].birthtimeMs
+          .sort((a, b) => a.ctimeMs - b.ctimeMs)
+          .reverse()[0].ctimeMs
       ).toLocaleString()
     }}
   </div>
