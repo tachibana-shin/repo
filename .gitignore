@@ -1,0 +1,17 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+*.log
+/.tmp
+.vite-ssg-temp/
+/auto-imports.d.ts
+/components.d.ts
+
+/pages/**/*.json
+/public/Packages
+/public/Packages.*
+/public/Release
+/public/debian
+

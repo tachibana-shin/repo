@@ -1,0 +1,523 @@
+git.shin.acehighsierra 8 - 12
+git.shin.acehsxi 11
+git.shin.activatorvi *
+git.shin.afaker 9 - 10
+git.shim.alkaline 9 - 12
+git.shin.anemone 6 - 11.2
+git.shin.animatoonpro 6 - 12
+git.shin.ants 9 - 12.4
+git.shin.apphub *
+git.shin.aquaboard8 8 - 10
+git.shin.aqueous 8 - 12
+git.shin.audiorecorder2 8 - 12
+git.shin.audiorecorderxs 12 - 13
+git.shin.aupm 9 - 10
+git.shin.autotouch8 8 - 12
+git.shin.ballast 10
+git.shin.barsxi 10
+git.shin.batterylifeplugin 9 - 11.3
+git.shin.blackie *
+git.shin.blackie2 *
+git.shin.bytafont3 10
+git.shin.bytafonttmnc 9 - 12
+git.shin.cachewipe 10 - 11
+git.shin.callbar7 7 - 10
+git.shin.cercube 8 - 11
+git.shin.chronos 10 - 12.4
+git.shin.cleansys >= 8
+git.shin.compatimark 8 - 11
+git.shin.cracktool2 10
+git.shin.cukey 10 - 12.1
+git.shin.customdia >= 9
+git.shin.customloadingtext 8 - 12
+git.shin.cylinder 4 - 13
+git.shin.detailedpowerusage 9 - 11
+git.shin.dim 7 - 10
+git.shin.evanesco 8 - 10
+git.shin.filzatm 12 - 13.3
+git.shin.fiona *
+com.johncoates.Flex3 10
+git.shin.gamegem10.3 10.3.x
+git.shin.gameplayer 6 - 10
+git.shin.goodges 8 - 12
+git.shin.goodges2 11 - 12
+git.shin.goodwifi 10 - 12
+git.shin.hpbdisabller 10 - 12
+git.shin.icleanerpro >= 4
+git.shin.icon *
+git.shin.ifile 10
+libactivator 8 - 12
+git.shin.liberty *
+git.shin.libspring *
+git.shin.localiapstoreios9 7 - 13
+git.shin.lowpowermode >= 9
+git.shin.maize10 10.3.x
+git.shin.modernc *
+git.shin.mterminal *
+git.shin.myinst *
+git.shin.mypomonella 8 - 12
+git.shin.pagebar 9 - 12.4
+git.shin.powerselector 4 - 10
+git.shin.qoobee *
+git.shin.randomiconsflip 4 - 10
+git.shin.recydia >= 10
+git.shin.reformx 10
+git.shin.releaserepo *
+git.shin.reprovision >= 9
+git.shin.simplelsios10 10
+git.shin.slidetounlock10 10
+git.shin.smarttap 7 - 10
+git.shin.smarttapx 11
+git.shin.smoothbattery 9 - 13
+git.shin.speedtestpp 10 - 13
+git.shin.springplus 10
+git.shin.successionrestore >= 10
+git.shin.tage 7 - 10
+git.shin.transparentcamerabar 5 - 10
+git.shin.transparentdock >= 7
+git.shin.transparentfolders >= 9
+git.shin.turkey 10 - 12.2
+git.shin.tweakcount2 8 - 10
+com.unlimapps.uasharedtools.stash 7 - 11
+git.shin.unsize 10 - 13
+git.shin.vibrato >= 9
+git.shin.weatherstatusbar10 10
+git.shin.xgpspro >= 5
+git.shin.youtubepatcher 10 - 11.4
+git.shin.ytpp *
+git.shin.zebrasevirce 9 - 13
+git.shin.zeppelin 10 - 12
+git.shin.cracktool4 12 - 13
+git.shin.smarttapxs 11 - 13
+git.shin.iwidgets 8 - 10
+git.shin.lockhtml4 7 - 10
+git.shin.wethr *
+git.shin.apppercent 8 - 10
+git.shin.ccrecorder 10
+git.shin.cydiainstall >= 10
+git.shin.force3dappshortcuts 10
+git.shin.autolowpowermode *
+git.shin.smallerccbuttons *
+git.shin.statusvolx 8 - 10
+git.shin.swipedownforactivator 8 - 11
+git.shin.statuspeek2 10
+git.shin.tinybar 8 - 10
+git.shin.otrlocation 7 - 12
+git.shin.otrlocationservirce 8 - 12
+git.shin.dleasy >= 10
+git.shin.dleasyvi >= 10
+git.shin.appcake4 9 - 10
+git.shin.appcake5 10.3.x
+git.shin.appcake6 >= 11
+git.shin.bettersettings >= 11
+git.shin.bettersettings10 10
+git.shin.ccwallcustomizer 8 - 10
+git.shin.ccwallcustomizer2 11
+git.shin.chargemode *
+git.shin.forceinpicture 9 - 10
+git.shub.hortus 9 - 10
+git.shin.hsmapfix >= 10
+git.shin.infinidock >= 5
+git.shin.infinidock10 10
+git.shin.nudekeys 10
+git.shin.nudekeys 8 - 11
+git.shin.nudekeys12 12
+git.shin.hortus 9 - 10
+git.shin.ncwallcustomizer 10
+git.shin.shadow 8 - 12.4
+git.shin.shadowapp 8 - 12.4
+git.shin.unalkuru >= 7
+git.shin.whitedream >= 9
+git.shin.pullover 9 - 10
+git.shin.PullOverPro 11 - 12.4
+git.shin.nicebarx 11 - 12.4
+git.shin.Flex3 8 - 11
+git.shin.flex3-32b 10
+git.shin.youtubetools 8 - 13
+git.shin.a-font >= 11
+git.shin.chanqcytb 8 - 12.4
+git.shin.adblockplus >= 8
+git.shin.boxy2 7 - 9
+git.shin.boxy3 11 - 12
+git.shin.boxy4 13
+git.shin.display-touch >= 9
+git.shin.complications >= 12
+git.shin.lockpluspro >= 8
+git.shin.lockplusprovi *
+git.shin.prysm 11 - 13.3
+git.shin.smartnetwork 10 - 13.3
+git.shin.stalky 7 - 12
+git.shin.passby 9 - 12
+git.shin.PullOverProb 11 - 13
+git.shin.tiktokconfirms 10 - 13
+git.shin.selecttextcolors 8 - 13
+git.shin.libatocr 8 - 13
+git.shin.liblua *
+git.shin.batchomatic >= 11
+git.shin.calllogpro 8 - 13
+cydiacoolstar >= 11
+git.shin.fbadblock >= 8
+git.shin.kalm 12 - 13.3
+git.shin.autoanswerx >= 11
+git.shin.iconator2 11 - 12
+git.shin.iconresizerforios11 10 - 13
+git.shin.ithemer >= 10
+git.shin.magmaevo 12 - 13
+git.shin.magmaevovi 12 - 13
+git.shin.carbonite 12 - 13
+git.shin.colorizechat 12 - 13
+git.shin.3dtools 12 - 13.4
+git.shin.lpm 10 - 12.2
+git.shin.ccmodulespro 11 - 13.4
+git.shin.ncontrol 7 - 12.4
+git.shin.networkmanager 11 - 12.2
+git.shin.nfcwriterx 10 - 13.4
+git.shin.noctis12 12 - 12.4
+git.shin.noctisx 10.x.x
+git.shin.noctisxl 11 - 11.4.1
+git.shin.notifywifi10 10 - 11
+git.shin.notifywifi7 7 - 9
+git.shin.notifywifix 10 - 13.4
+git.shin.onlinenotify 9 - 13.3
+git.shin.pasithea2 10 - 13.4
+git.shin.phonecaller2 7 - 12.4
+git.shin.photomanager12 11 - 13.4
+git.shin.screensafe 11 - 12.4
+git.shin.settingsip 11 - 12.2
+git.shin.sleipnizer4 9 - 12.4
+git.shin.smartbattery 11 - 13.4
+git.shin.switches 6 - 12.4
+git.shin.taptickeys 10 - 12.2
+git.shin.tetherme8 8 - 12.1
+git.shin.textyle 11 - 12.2
+git.shin.tilayer2 12 - 12.4
+git.shin.ultrasound 11 - 13.4
+git.shin.vartaman 10 - 13.4
+git.shin.ventana 9 - 12.2
+git.shin.vibrancy 11 - 12.2
+git.shin.vinculum 10 - 12.4
+git.shin.watools 9 - 13.4
+git.shin.whoozit 8 - 12.4
+git.shin.twelveeclipse >= 7
+git.shin.translomatic >= 11
+git.shin.bottomtoolbar 11 - 13.4
+git.shin.foxforthack >= 11
+git.shin.foxforttools >= 11
+git.shin.libfoxfortutils >= 11
+git.shin.aerial 9 - 10
+git.shin.aerial2 13 - 13.3
+git.shin.autoscroll 12 - 13.3
+git.shin.backupaz3cmd >= 10
+git.shin.badgebar 12 - 13
+git.shin.badgebarvi 12 - 13
+git.shin.colorbadges-new 7 - 13
+git.shin.impactor 7 - 10
+git.shin.impactor10 10.x.x
+git.shin.harpy 9 - 12.4
+git.shin.locationhandlex 10 - 13
+git.shin.semirestore11 11
+git.shin.locationhandlex 10 - 13
+git.shin.cydiatimeoutcmd *
+git.shin.alizz *
+git.shin.colorbanners 8 - 9
+git.shin.colorbanners2-new 10 - 12.4
+git.shin.colorbanners3 13
+git.shin.filza64 >= 7
+git.shin.hidestatusbaritemspro 11
+git.shin.pokefullcharge >= 9
+git.shin.rockethack >= 9
+git.shin.runtimebrowser *
+git.shin.siliqua 9 - 10
+git.shin.siliqua2 11 - 12
+git.shin.siliquapro >= 11
+git.shin.wale >= 7
+git.shin.watermelon 12 - 13
+git.shin.xenanalog >= 10
+git.shin.xenanimate >= 10
+git.shin.modern 10
+git.shin.dimme >= 8
+git.shin.lst 10
+git.shin.nolowpowerautolock 10 - 11
+git.shin.noyellowbattery *
+git.shin.randomlabels *
+git.shin.smartlowpower 9 - 10
+git.shin.smartlpm 9 - 12
+git.shin.lst 10
+git.shin.nolowpowerautolock 10 - 11 
+git.shin.noyellowbattery 10 - 13
+git.shin.randomlabels *
+git.shin.smartlowpower 9 - 10
+git.shin.smartlpm 9 - 12
+git.shin.bioprotect 8 - 10
+git.shin.bioprotectx 11
+git.shin.bioprotectxs 12 - 13
+git.shin.callbarx 8 - 11
+git.shin.callbarxs 12 - 13
+git.shin.classicfolders2 8 - 10
+git.shin.classicswitcher 8 - 10
+git.shin.memsearch 8 - 11
+git.shin.selectmoji 10 - 13
+git.shin.deluminator >= 11
+git.shin.fdark >= 11
+com.spark.libsparkapplist *
+git.shin.lockapps >= 10
+git.shin.vocoder 5 - 10
+git.shin.voicechangerx 11
+git.shin.voicechangerxx 12 - 13
+git.shin.appaze2 11 - 13
+git.shin.bigpipenergy 13
+git.shin.blackie3 >= 7
+git.shin.chatspeaker >= 7
+git.shin.fastx 11 - 12
+git.shin.haptickeys 10 - 13.3
+git.shin.hapticscroll 9 - 12
+git.shin.portrait10 10
+git.shin.portraitxi64 >= 11
+git.shin.selmoji 10 - 13.3
+git.shin.shadow13 >= 10
+git.shin.sleeper 8 - 13.3
+git.shin.sleepfx 5 - 9
+git.shin.slepizy 11 - 12
+git.shin.springtomize 4
+git.shin.springtomize2 5 - 6
+git.shin.springtomize3 7 - 9
+git.shin.st4 10 - 12
+git.shin.st5 13
+git.shin.appze2 11 - 13.3
+git.shin.11 11 - 13
+git.shin.lynx 13
+git.shin.modernize 11 - 13
+git.shin.mot 12 - 13
+git.shin.purefocus 11 - 12
+git.shin.quickls 13
+git.shin.tacitus 11 - 12.4
+git.shin.ldrestartapp >= 11
+git.shin.animationsbefastplus >= 11
+git.shin.grupi 11 - 13
+git.shin.hyperion 11 - 13.3
+git.shin.location360pro >= 5
+git.shin.tune >= 13
+git.shin.wastatusvolume 7 - 10
+git.shin.aod 12 - 13
+git.shin.badgecolors 10 - 12.4
+git.shin.colorflow5 13
+git.shin.colorsystempro 11 - 13.3
+git.shin.cozybadges >= 13
+git.shin.cozybadges >= 13
+git.shin.cyanea 12 - 13
+git.shin.dots2 13
+git.shin.limneoscrack >= 9
+git.shin.tinybanners 12
+git.shin.tinybanners2 >= 12
+git.shin.AceCata >= 7
+git.shin.carbridge13 13
+git.shin.carplay 10 - 12
+git.shin.chatspker >= 7
+git.shin.firefly 11 - 13
+git.shin.ohw2 13
+git.shin.onehandwizard 8 - 9
+git.shin.prysm.beta 11 - 13.3
+git.shin.whitedreamfs >= 7
+git.shin.cyplay *
+git.shin.actionbar >= 10
+git.shin.adaptivedarkmode 13
+git.shin.adobeos >= 7
+git.shin.alimaulana.apik *
+git.shin.animpodsnew >= 11
+git.shin.annotate >= 10
+git.shin.aperturize >= 11
+git.shin.appcrumb 11 - 12
+git.shin.appdrawer 11
+git.shin.appgrid >= 12
+git.shin.appshortcut2 >= 12
+git.shin.apptic 9 - 12
+git.shin.arkpro >= 12
+git.shin.artsy 11
+git.shin.askew >= 9
+git.shin.assistability12 12
+git.shin.assistability13 13
+git.shin.assistantplus >= 11
+git.shin.autodywall 9 - 13
+git.shin.badgeme 11 - 13
+git.shin.batterynotch 11 - 13
+git.shin.baylor 10 - 13
+git.shin.betteralerts 12 - 13
+git.shin.betterccicons 11 - 12.2
+git.shin.pobetterccxi 11 - 13
+git.shin.betterccxiweather 12
+git.shin.custompods >= 11
+git.shin.mcsplash 10 - 12.2
+git.shin.A9DaysWeather >= 7
+git.shin.actionbar >= 10
+git.shin.adaptivedarkmode >= 13
+git.shin.adobeos >= 7
+git.shin.alimaulana.apik >= 7
+git.shin.animpodsnew >= 11
+git.shin.annotate >= 10
+git.shin.aperturize >= 11
+git.shin.appcrumb 11 - 12
+git.shin.appdrawer 8 - 12
+git.shin.appgrid >= 12
+git.shin.appshortcut2 >= 12
+git.shin.apptic 9 - 12
+git.shin.arkpro 12 - 13
+git.shin.artsy 11
+git.shin.askew >= 7
+git.shin.assistability12 12
+git.shin.assistability13 13
+git.shin.assistantplus 11 - 12
+git.shin.autodywall 13
+git.shin.badgeme 11 - 13
+git.shin.batterynotch 11 - 13
+git.shin.baylor >= 10
+git.shin.betteralerts 12 - 13
+git.shin.betterccicons 13
+git.shin.pobetterccxi >= 11
+git.shin.betterccxiweather 12
+git.shin.custompods >= 11
+git.shin.mcsplash 10 - 12
+git.shin.asc 10
+git.shin.facebook-no-ads >= 10
+git.shin.springplus11 11
+git.shin.blockads *
+git.shin.dayn 12 - 13
+git.shin.daynightswitch 9 - 12
+git.shin.libcspreferences *
+git.shin.libcsweather *
+git.shin.moderndepictions 8 - 12
+git.shin.motuumls 10
+git.shin.shuffle >= 10
+git.shin.widgetlove *
+git.shin.cloneappcmd *
+plutil *
+git.shin.OreoDark *
+git.shin.AllStar >= 7
+git.shin.androids20ultra >= 10
+git.shin.blackeagledark >= 7
+git.shin.colorsystempro 11 - 13
+git.shin.flowic >= 11
+git.shin.flow >= 12
+git.shin.iosamsung >= 7
+git.shin.killx 11 - 13
+git.shin.liaca >= 7
+git.shin.liacadarks >= 7
+git.shin.liacaglyphs >= 7
+git.shin.lollipopport >= 7
+git.shin.Oreo >= 7
+git.shin.samsungtheme >= 7
+git.shin.Shiiny >= 7
+git.shin.BigClock >= 7
+git.shin.acen13 13
+git.shin.centaur >= 11
+git.shin.centaurvi >= 11
+git.shin.cosmos13 13
+git.shin.cosmos 10 - 12
+git.shin.dsm 8 - 13
+git.shin.dsmvi 8 - 13
+git.shin.golditheme >= 7
+git.shin.iamosxs >= 8
+git.shin.ireloj >= 10
+git.shin.kadirbaran >= 7
+git.shin.zenith >= 11
+git.shin.widgetrain *
+git.shin.widgetsnow *
+git.shin.midevice 11 - 13
+git.shin.modulus 11 - 13
+git.shin.moonshine 11 - 12
+git.shin.newterm2 10 - 13
+git.shin.newtermtm >= 11
+git.shin.zebraservirce >= 9
+git.shin.answeringmachine 8 - 10
+git.shin.answeringmachinex 11 - 12
+git.shin.answeringmachinexs 8 - 13
+git.shin.darkmodecydia >= 1
+git.shin.hu32 >= 7
+git.shin.hu3 >= 7
+git.shin.jumper >= 11
+git.shin.limneosos *
+git.shin.peek-a-boo >= 10
+git.shin.pokecall 9 - 13
+git.shin.semperin 11 - 12
+git.shin.switchus >= 11
+git.shin.bae 8 - 12
+git.shin.batteryfullalert >= 7
+git.shin.datameter 7 - 11
+git.shin.fileproto *
+git.shin.lockscreencustomtext 10
+git.shin.nodocklabels10 10
+git.shin.patchsafari2 *
+git.shin.respringprogress 9 - 10
+git.shin.screenshotxi 9 - 10
+git.shin.shynotifications >= 10
+git.shin.shypagedots 7 - 9
+git.shin.speedintensifier 6 - 10
+git.shin.storeswitcher2 >= 11
+git.shin.storeswitcher 9 - 10
+git.shin.swipeselection-pro 7 - 10
+git.shin.swipeselection 4 - 10
+git.shin.appaze 11 - 12
+git.shin.as *
+git.shin.backupaz3 10 - 12
+git.shin.carbon 11 - 12
+git.shin.colorize 7 - 8
+git.shin.dots 10 - 12
+git.shin.bdeb *
+git.shin.bettercciconspro 11 - 12
+git.shin.betterrotate >= 10
+git.shin.blackeaglefpX *
+git.shin.fullforce >= 11
+git.shin.instalauncher.packix 6 - 13
+git.shin.mariokart >= 9
+git.shin.Module4 >= 7
+git.shin.partyapps 9 - 13
+git.shin.phonexl 10 - 13
+git.shin.sakeo >= 7
+git.shin.sfy 10 - 13
+git.shin.statusbarmix 10 - 13
+git.shin.tritium 11 - 13
+git.shin.watusi2 >= 8
+com.pulandres.watools >= 8
+git.shin.yobunpro 12 - 13
+git.shin.replayer *
+git.shin.ccmusicartwork 13
+git.shin.copiedlabel 10 - 13
+git.shin.customsw 11 - 13
+git.shin.discordautoscroll 9 - 13
+git.shin.facebookautoscroll 9 - 13
+git.shin.fireflyx 11 - 13
+git.shin.floatingdockplus13 >= 13
+git.shin.google3 >= 7
+git.shin.instagramautoscroll 9 - 13
+git.shin.ringer13 12 - 13
+git.shin.sleepizy 11 - 13
+git.shin.sleepizyvi 11 - 13
+git.shin.snooscreens 7 - 8
+git.shin.time 12 - 13
+git.shin.whatcol 10 - 13
+curl-32bit *
+curl *
+git.shin.dlgmemor8-10 8 - 10
+git.shin.dropbear *
+git.shin.dropbearalert *
+git.shin.dropbearswith *
+git.shin.fcum 10
+git-32bit-lite *
+git-32bit *
+git *
+net.angelxwind.appsyncunified >= 3
+git.shin.nonosimalert8 >= 8
+openssl *
+p7zip *
+git.shin.saverb 10 - 13
+git.shin.transparnc 10
+unrar *
+unzip *
+git.shin.youtuben 8 - 10
+zip *
+curl32 *
+git32 *
+git.shin.alkaline >= 8
+git.shin.appsyncunified >= 4
+git.shin.creature-survice *
+git.shin.libsparkapplis *
+git.shin.uasharedtools.stash <= 10

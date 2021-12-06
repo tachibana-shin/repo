@@ -1,0 +1,1 @@
+export default typeof navigator !== "undefined" ? navigator.userAgent.includes("Cydia") : false;

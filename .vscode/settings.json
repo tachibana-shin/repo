@@ -1,0 +1,26 @@
+{
+   "cSpell.words": [
+      "birthtime",
+      "Cydia",
+      "darkmode",
+      "ftparchive",
+      "iphoneos",
+      "moreinfo",
+      "noopener",
+      "onwarn",
+      "unplugin",
+      "vite",
+      "vitejs",
+      "vueuse"
+   ],
+   "cSpell.ignorePaths": [
+      "package-lock.json",
+      "package.json",
+      "node_modules",
+      "vscode-extension",
+      ".git/objects",
+      ".vscode",
+      ".vscode-insiders",
+      "compatity.txt"
+   ]
+}
