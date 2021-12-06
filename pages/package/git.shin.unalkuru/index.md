@@ -1,1 +1,1 @@
-Description for package git.shin.unalkuru
+A simple, modern & beautiful IOS theme.
