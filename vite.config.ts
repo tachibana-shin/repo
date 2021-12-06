@@ -40,6 +40,7 @@ const config: UserConfig = {
     Pages({
       extensions: ["vue", "md"],
       pagesDir: "pages",
+      importMode: "async",
       extendRoute(route) {
         const path = resolve(__dirname, route.component.slice(1));
 
