@@ -9,7 +9,7 @@ import { usePackageIcon } from "../uses/packageIcon";
 import { format } from "timeago.js";
 
 const items = pkgLastUpdate.map((pkg) => ({
-  name: pkg.name,
+  name: pkg.name || pkg.packageID,
   icon: usePackageIcon(pkg.icon, pkg.section),
   version: pkg.lastVersion,
   to: inCydia
