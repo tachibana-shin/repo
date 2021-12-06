@@ -30,7 +30,7 @@
     <strong>{{ control.countPackage }}</strong> packages uploaded.<br />
     Last update at
     <strong>{{
-      new Date(control.birthtimeMs).toLocaleDateString()
+      new Date(control.lastUpdateAt).toLocaleDateString()
     }}</strong>
   </div>
 
