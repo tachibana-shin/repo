@@ -121,6 +121,7 @@ const config: UserConfig = {
         if (warning.code !== "UNUSED_EXTERNAL_IMPORT") next(warning);
       },
     },
+    assetsInlineLimit: 0,
   },
 
   ssgOptions: {
