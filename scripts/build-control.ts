@@ -273,6 +273,7 @@ async function updateSections(
       list.map((item) => ({
         name: item.name,
         to: item.to,
+        countPackage: item.countPackage,
       }))
     )
   );

@@ -20,17 +20,14 @@
 <script lang="ts" setup>
 import inCydia from "../constants/inCydia";
 import useAssetsIcon from "../uses/assetsIcon";
+import type { PackageControlFile } from "scripts/build-control";
 
-defineProps<{
+const { frontmatter } = defineProps<{
   frontmatter: any;
 }>();
 
 const packageId = useRoute().path.match(/\/package\/([^/]+)\//)?.[1];
-const name = ref<string>("");
-
-import(/* @vite-ignore */ `../../pages/package/${packageId}/control.json`)
-  .then((res) => {
-    name.value = res.default[0].control.Name;
-  })
-  .catch(() => {});
+const name =
+  (frontmatter.control as Required<PackageControlFile>[])[0].control.Name ||
+  (frontmatter.control as Required<PackageControlFile>[])[0].control.Package;
 </script>

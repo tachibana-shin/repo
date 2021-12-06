@@ -6,7 +6,7 @@ import Inspect from "vite-plugin-inspect";
 import Components from "unplugin-vue-components/vite";
 import Markdown from "vite-plugin-md";
 import Vue from "@vitejs/plugin-vue";
-// import matter from "gray-matter";
+import matter from "gray-matter";
 import AutoImport from "unplugin-auto-import/vite";
 import anchor from "markdown-it-anchor";
 import markdownAttr from "markdown-it-link-attributes";
@@ -37,36 +37,73 @@ const config: UserConfig = {
       include: [/\.vue$/, /\.md$/],
     }),
 
+    {
+      name: "vite-plugin-add-control",
+      enforce: "pre",
+      transform(raw, id) {
+        if (
+          id.endsWith("/index.md") ||
+          /\/pages\/package\/[^/]+\/changelog\.md$/.test(id)
+        ) {
+          const md = matter(raw);
+
+          const srcControl = join(dirname(id), "control.json");
+          const control = fs.existsSync(srcControl)
+            ? fs.readFileSync(srcControl, "utf8")
+            : undefined;
+
+          let changed = false;
+
+          if (/\/pages\/package\/[^/]+\/index\.md$/.test(id)) {
+            const dir = dirname(id);
+
+            Object.assign(md.data, {
+              screenshots: fs.existsSync(join(dir, "screenshots"))
+                ? fs.readdirSync(join(dir, "screenshots"))
+                : [],
+              compatible:
+                fs.existsSync(join(dir, "compatible.yml")) &&
+                yaml.parse(
+                  fs.readFileSync(join(dir, "compatible.yml"), "utf8")
+                ),
+              existsChangelog: fs.existsSync(join(dir, "changelog.md")),
+            });
+
+            changed = true;
+          }
+
+          if (control) {
+            md.data.control = JSON.parse(control);
+            changed = true;
+          }
+
+          if (changed) {
+            return matter.stringify(md.content, md.data);
+          }
+        }
+      },
+    },
+
     Pages({
       extensions: ["vue", "md"],
       pagesDir: "pages",
       extendRoute(route) {
-        const path = resolve(__dirname, route.component.slice(1));
+        // const path = resolve(__dirname, route.component.slice(1));
 
-        if (
-          (route.component.startsWith("/pages/package/") ||
-            route.component.startsWith("/pages/section/")) &&
-          !route.component.endsWith("/package/index.md")
-        ) {
-          const dir = dirname(path);
+        // if (
+        //   (route.component.startsWith("/pages/package/") ||
+        //     route.component.startsWith("/pages/section/")) &&
+        //   !route.component.endsWith("/package/index.md")
+        // ) {
+        //   const dir = dirname(path);
 
-          route.meta = {
-            ...(route.meta || {}),
-            screenshots: fs.existsSync(join(dir, "screenshots"))
-              ? fs.readdirSync(join(dir, "screenshots"))
-              : [],
-            compatible:
-              fs.existsSync(join(dir, "compatible.yml")) &&
-              yaml.parse(
-                fs.readFileSync(join(dir, "compatible.yml"), "utf8")
-              ),
-            existsChangelog: fs.existsSync(join(dir, "changelog.md")),
-            ID: basename(dir),
-            // packageInfo: JSON.parse(
-            //   fs.readFileSync(join(dir, "control.json"), "utf8")
-            // ),
-          };
-        }
+        //   route.meta = {
+        //     ...(route.meta || {}),
+        //     // packageInfo: JSON.parse(
+        //     //   fs.readFileSync(join(dir, "control.json"), "utf8")
+        //     // ),
+        //   };
+        // }
 
         return route;
       },

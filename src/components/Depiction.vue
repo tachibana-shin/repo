@@ -66,19 +66,11 @@
     <h6 class="title">Package Example</h6>
     <div class="alert alert-success text-center mb-0" v-if="isSupport">
       Supported iOS version
-      {{
-        compatible?.latest ||
-        compatible?.[packageInfoLast.control.Version] ||
-        "unknown"
-      }}
+      {{ versionsSupport }}
     </div>
     <div class="alert alert-danger text-center mb-0" v-else>
       Only support iOS versions
-      {{
-        compatible?.latest ||
-        compatible?.[packageInfoLast.control.Version] ||
-        "unknown"
-      }}
+      {{ versionsSupport }}
     </div>
     <p class="small text-secondary text-center mt-1">
       Current iOS {{ iOSVersion || "unknown" }}
@@ -164,15 +156,18 @@ const { frontmatter } = defineProps<{ frontmatter: any }>();
 const route = useRoute();
 
 const message = frontmatter.notification;
-const screenshots: string[] =
-  frontmatter.screenshots || (route.meta.screenshots as string[]) || [];
+const screenshots: string[] = frontmatter.screenshots || [];
 const sourceCode = frontmatter["source-code"];
-const existsChangelog = route.meta.existsChangelog;
-const compatible = route.meta.compatible as Record<string, string> | undefined;
-const packageInfo = Object.values(
-  import.meta.globEager(`/pages/package/${route.meta.ID}/control.json`)
-)[0]?.default! as Required<PackageControlFile>[];
+const existsChangelog = frontmatter.existsChangelog;
+const compatible = frontmatter.compatible as Record<string, string> | undefined;
+const packageInfo = frontmatter.control as Required<PackageControlFile>[];
 const packageInfoLast = packageInfo[0];
+const versionsSupport =
+  compatible?.latest || compatible?.[packageInfoLast.control.Version] === "*"
+    ? "all"
+    : compatible?.latest ||
+      compatible?.[packageInfoLast.control.Version] ||
+      "unknown";
 const isSupport: boolean | null =
   iOSVersion.value &&
   (compatible?.latest || compatible?.[packageInfoLast.control.Version])

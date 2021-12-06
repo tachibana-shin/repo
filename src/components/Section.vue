@@ -40,11 +40,7 @@ const { frontmatter } = defineProps<{
   frontmatter: any;
 }>();
 
-const route = useRoute();
-
-const sectionInfo = Object.values(
-  import.meta.globEager(`/pages/section/${route.meta.ID}/control.json`)
-)[0].default! as SectionControlFile;
+const sectionInfo = frontmatter.control as SectionControlFile;
 const items = sectionInfo.packages.map((pkg) => ({
   name: pkg.name,
   icon: usePackageIcon(pkg.icon, sectionInfo.name),
