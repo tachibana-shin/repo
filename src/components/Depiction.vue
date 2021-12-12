@@ -162,20 +162,9 @@ const existsChangelog = frontmatter.existsChangelog;
 const compatible = frontmatter.compatible as Record<string, string> | undefined;
 const packageInfo = frontmatter.control as Required<PackageControlFile>[];
 const packageInfoLast = packageInfo[0];
-const versionsSupport =
-  compatible?.latest || compatible?.[packageInfoLast.control.Version] === "*"
-    ? "all"
-    : compatible?.latest ||
-      compatible?.[packageInfoLast.control.Version] ||
-      "unknown";
-const isSupport: boolean | null =
-  iOSVersion.value &&
-  (compatible?.latest || compatible?.[packageInfoLast.control.Version])
-    ? satisfies(
-        iOSVersion.value,
-        compatible.latest || compatible[packageInfoLast.control.Version]
-      )
-    : null;
+const compatib = compatible?.latest || compatible?.[packageInfoLast.control.Version];
+const versionsSupport = compatib === "*" ? "all" : compatib || "unknown";
+const isSupport: boolean | null = compatib === "*" || compatib === "all" || iOSVersion.value && compatib ? satisfies(iOSVersion.value, compatib) : null;
 const propertiesShow = {
   Name: packageInfoLast.control.Name || packageInfoLast.control.Package,
   Package: packageInfoLast.control.Package,
