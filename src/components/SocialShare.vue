@@ -28,7 +28,7 @@ const items = [
   {
     icon: useAssetsIcon("ipa.png"),
     name: "Tools Jailbreak",
-    to: "https://tachibana-shin.github.io/jailbreak-tools",
+    to: "https://shin.is-a.dev/jailbreak-tools",
   },
 ];
 </script>

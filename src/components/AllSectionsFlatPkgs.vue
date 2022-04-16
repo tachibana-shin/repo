@@ -27,7 +27,7 @@ const sections = listSections.map((section) => {
         name: pkg.name || pkg.packageID,
         icon: usePackageIcon(pkg.icon, section.name),
         to: inCydia
-          ? `https://tachibana-shin.github.io/repo/package/${pkg.packageID}`
+          ? `https://shin.is-a.dev/repo/package/${pkg.packageID}`
           : `/package/${pkg.packageID}`,
       };
     }),

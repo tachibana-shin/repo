@@ -5,7 +5,7 @@
     class="mb-0"
   />
   <p class="small text-center text-secondary">
-    Repo: https://tachibana-shin.github.io/repo
+    Repo: https://shin.is-a.dev/repo
   </p>
 </template>
 
@@ -21,15 +21,15 @@ const list = [
     icon: useAssetsIcon("cydia7.png"),
     name: "Open Cydia",
     to: props.packageId
-      ? `cydia://url/https://cydia.saurik.com/api/share#?source=https://tachibana-shin.github.io/repo&package=${props.packageId}`
-      : `cydia://url/https://cydia.saurik.com/api/share#?source=https://tachibana-shin.github.io/repo`,
+      ? `cydia://url/https://cydia.saurik.com/api/share#?source=https://shin.is-a.dev/repo&package=${props.packageId}`
+      : `cydia://url/https://cydia.saurik.com/api/share#?source=https://shin.is-a.dev/repo`,
   },
   {
     icon: useAssetsIcon("zebra.png"),
     name: "Open Zebra",
     to: props.packageId
-      ? `zbra://sources/add/https://tachibana-shin.github.io/repo&package=${props.packageId}`
-      : `zbra://sources/add/https://tachibana-shin.github.io/repo`,
+      ? `zbra://sources/add/https://shin.is-a.dev/repo&package=${props.packageId}`
+      : `zbra://sources/add/https://shin.is-a.dev/repo`,
   },
 ];
 </script>

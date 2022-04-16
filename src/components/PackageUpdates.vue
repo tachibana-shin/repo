@@ -13,7 +13,7 @@ const items = pkgLastUpdate.map((pkg) => ({
   icon: usePackageIcon(pkg.icon, pkg.section),
   version: pkg.lastVersion,
   to: inCydia
-    ? `https://tachibana-shin.github.io/repo/package/${pkg.packageID}`
+    ? `https://shin.is-a.dev/repo/package/${pkg.packageID}`
     : `/package/${pkg.packageID}`,
   subversion: format(pkg.ctimeMs, "en_US", {
     relativeDate: Date.now(),
