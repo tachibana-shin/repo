@@ -7,7 +7,7 @@
     "build:debian": "rm -rf public/debian && cp -rf ./debian public/debian",
     "build:comp": "esno ./compatible.ts",
     "build:sitemap": "esno ./scripts/sitemap.ts",
-    "build": "yarn build:control && yarn build:debian && yarn build:sitemap && yarn build:web-leak",
+    "build": "yarn build:control && yarn build:debian && yarn build:web-leak && yarn build:sitemap",
     "dev": "vite",
     "preview": "vite preview"
   },
