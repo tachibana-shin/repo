@@ -262,7 +262,7 @@ async function updateSections(
   const list = Array.from(sections.keys()).map((sectionName) => {
     return {
       name: sectionName,
-      to: `/section/${encodeURIComponent(sectionName).replace(/%20/g, "+")}`,
+      to: `/section/${encodeURIComponent(sectionName).toLowerCase().replace(/%20/g, "+")}`,
       packages: Array.from(sections.get(sectionName)!.values()).slice(0, 5),
       countPackage: Array.from(sections.get(sectionName)!.values()).length,
     };
